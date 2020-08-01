@@ -13,6 +13,7 @@
 		CECE26F024D57E690097A0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE26EE24D57E690097A0DD /* Main.storyboard */; };
 		CECE26F224D57E6A0097A0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE26F124D57E6A0097A0DD /* Assets.xcassets */; };
 		CECE26F524D57E6A0097A0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECE26F324D57E6A0097A0DD /* LaunchScreen.storyboard */; };
+		CECE26FD24D57F750097A0DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE26FC24D57F750097A0DD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CECE26F124D57E6A0097A0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECE26F424D57E6A0097A0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECE26F624D57E6A0097A0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE26FC24D57F750097A0DD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CECE26EA24D57E680097A0DD /* SceneDelegate.swift */,
 				CECE26EC24D57E680097A0DD /* ViewController.swift */,
 				CECE26EE24D57E690097A0DD /* Main.storyboard */,
+				CECE26FC24D57F750097A0DD /* SecondViewController.swift */,
 				CECE26F124D57E6A0097A0DD /* Assets.xcassets */,
 				CECE26F324D57E6A0097A0DD /* LaunchScreen.storyboard */,
 				CECE26F624D57E6A0097A0DD /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE26FD24D57F750097A0DD /* SecondViewController.swift in Sources */,
 				CECE26ED24D57E680097A0DD /* ViewController.swift in Sources */,
 				CECE26E924D57E680097A0DD /* AppDelegate.swift in Sources */,
 				CECE26EB24D57E680097A0DD /* SceneDelegate.swift in Sources */,
