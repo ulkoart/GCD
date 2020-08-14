@@ -36,6 +36,7 @@ class SecondViewController: UIViewController {
         
     }
     
+    
     fileprivate func delay(_ delay: Int, closure: @escaping () -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(delay)) {
             closure()
